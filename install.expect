@@ -9,7 +9,7 @@ spawn bash ./acunetix_13.0.201006145_x64.sh
 expect ">>>"
  
 send -h "\r\n"
-send -h "\x03"
+send -h "\x03\n"
 
 expect "Accept the license terms?"
 send -h "yes\r"
